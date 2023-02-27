@@ -42,6 +42,8 @@ Only one preprocessed data set was used which included numbers.
 
 We used a sigmoid activation function for the final dense layer. The sigmoid function is used in this multilabel classification problem because the probabilities produced by a sigmoid function are independent, and are not constrained to sum to 1.0. That’s because the sigmoid function looks at each raw output value separately and thus it’s the optimal activation function of a multilabel classification problem. 
 
+The preprocessed data was passed through a classification model, the architecture of which is defined above. We used Adam Optimiser with learning rate equal to 0.00001, loss function equal to Binary Cross Entropy Loss and batch size equal to 8. Class weights were set while fitting the model on the training data. We focused primarily on ‘F1 micro’ in this subtask. The model was run for 400 epochs.
+
 ## Results-
 
 <img width="662" alt="Screenshot 2023-02-27 at 14 41 49" src="https://user-images.githubusercontent.com/67748049/221521784-cec183e0-6743-41b6-b9e6-4d0fcaeda517.png">
