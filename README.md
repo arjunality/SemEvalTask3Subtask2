@@ -46,5 +46,7 @@ We used a sigmoid activation function for the final dense layer. The sigmoid fun
 
 <img width="662" alt="Screenshot 2023-02-27 at 14 41 49" src="https://user-images.githubusercontent.com/67748049/221521784-cec183e0-6743-41b6-b9e6-4d0fcaeda517.png">
 
-
+## Relevant Links- 
+1. https://propaganda.math.unipd.it/semeval2023task3/index.html
+2. https://propaganda.math.unipd.it/semeval2023task3/leaderboard.php
 
